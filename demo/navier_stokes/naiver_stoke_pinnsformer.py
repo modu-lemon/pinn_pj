@@ -264,10 +264,10 @@ p_pred = p_pred.cpu().detach().numpy()[:,0]
 error_u = np.linalg.norm(u_star-u_pred,2)/np.linalg.norm(u_star,2)
 error_v = np.linalg.norm(v_star-v_pred,2)/np.linalg.norm(v_star,2)
 error_p = np.linalg.norm(p_star-p_pred,2)/np.linalg.norm(p_star,2)
-print('before error_p: ' + error_p)
+print('before error_p: {:.4f}'.format(error_p))
 
 error_p = np.linalg.norm(p_star-p_pred,1)/np.linalg.norm(p_star,1)
-print('after error_p: ' + error_p)
+print('after error_p: {:.4f}'.format(error_p))
 
 plt.figure(figsize=(4,3))
 plt.imshow((p_star).reshape(50,100), extent=[-3,8,-2,2], aspect='auto')
