@@ -1,14 +1,8 @@
 {
-    "model_type": "GROW-PINNs",
-    "Loss_Res_bal": 0.03552864119410515,
-    "Loss_BC": 8.434799194335938,
-    "Loss_IC": 2.0273795127868652,
-    "Loss_QoI": 2.462360382080078,
-    "Train_Loss_sum_last": 12.960067730396986,
-    "relative_L1_error": 2.573318789751556,
-    "relative_L2_error": 2.332091834911681,
-    "weights_last": [
-        1.8376308679580688,
-        0.16236917674541473
-    ]
+    "model_type": "GROW-PINNs-ff+2stage",
+    "Loss_Res_bal_last": 29.651845932006836,
+    "Loss_BC_last": 0.00454111211001873,
+    "Loss_IC_last": 0.550690233707428,
+    "relative_L1_error": 1.1127408289223137,
+    "relative_L2_error": 1.0777786265726321
 }
