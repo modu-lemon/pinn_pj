@@ -1,0 +1,7 @@
+steps: 2000
+lr: 1e-3
+device: cuda:0
+transport: off
+transport_every: 100
+num_res: 10201
+seed: 0
